@@ -1,2 +1,2 @@
-# gtk3-gtkstacksidebar-example
-GTK+ 3 GtkStackSidebar Example
+# GTK+ 3 GtkStackSidebar Example
+![Demo](demo.png)
