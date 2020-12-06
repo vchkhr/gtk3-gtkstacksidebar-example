@@ -1,2 +1,2 @@
 # GTK+ 3 GtkStackSidebar Example
-![Demo](demo.png)
+![Demo](img/demo.png)
