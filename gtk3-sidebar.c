@@ -9,26 +9,25 @@ int main(int argc, char *argv[])
     GtkWidget *widget;
     GtkWidget *header;
 
-    const gchar* pages[] = {
-        "Example of Sidebar 1",
-        "Example of Sidebar 2",
-        "Example of Sidebar 3",
-        "Example of Sidebar 4",
-        "Example of Sidebar 5",
-        "Example of Sidebar 6",
-        "Example of Sidebar 7",
-        "Example of Sidebar 8",
-        "Example of Sidebar 9",
-        "Example of Sidebar 10",
-        NULL
-    };
+    const gchar *pages[] = {
+        "Child 1",
+        "Child 2",
+        "Child 3",
+        "Child 4",
+        "Child 5",
+        "Child 6",
+        "Child 7",
+        "Child 8",
+        "Child 9",
+        "Child 10",
+        NULL};
 
     const gchar *c = NULL;
 
     gtk_init(&argc, &argv);
 
     window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
-    gtk_window_set_title(GTK_WINDOW(window), "GTK+ 3 GtkStackSidebar Example");
+    gtk_window_set_title(GTK_WINDOW(window), "GTK+ 3 Sidebar");
     gtk_window_set_position(GTK_WINDOW(window), GTK_WIN_POS_CENTER);
 
     gtk_window_set_default_size(GTK_WINDOW(window), 500, 250);
